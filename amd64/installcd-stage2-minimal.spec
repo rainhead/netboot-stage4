@@ -48,7 +48,7 @@ boot/kernel/gentoo/use:
      dbus
      bash-completion
 
-livecd/packages: rsync netcat zsh vim lsof pump ipmitool nss-mdns avahi
+livecd/packages: rsync netcat zsh vim lsof pump ipmitool nss-mdns avahi vconfig bind-tools
 
 livecd/unmerge:
 	app-admin/eselect

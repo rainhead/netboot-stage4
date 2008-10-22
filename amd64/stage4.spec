@@ -92,7 +92,7 @@ stage4/use: ipv6 ssl caps zeroconf mdnsresponder-compat dbus bash-completion -py
 # then it will be defined elsewhere.
 # example:
 # stage4/packages: livecd-tools dhcpcd acpid apmd gentoo-sources coldplug fxload irssi gpm syslog-ng parted links raidtools dosfstools nfs-utils jfsutils xfsprogs e2fsprogs reiserfsprogs ntfsprogs pwgen rp-pppoe screen mirrorselect penggy iputils hwdata-knoppix hwsetup lvm2 evms vim pptpclient mdadm ethtool wireless-tools prism54-firmware wpa_supplicant
-stage4/packages: syslog-ng vixie-cron rsync netcat lvm2 xfsprogs nfs-utils dosfstools iproute2 mdadm zsh vim avahi ntp mercurial ipmitool screen pump lsof gentoolkit nss-mdns sudo
+stage4/packages: syslog-ng vixie-cron rsync netcat lvm2 xfsprogs nfs-utils dosfstools iproute2 mdadm zsh vim avahi ntp mercurial ipmitool screen pump lsof gentoolkit nss-mdns sudo vconfig layman subversion git bind-tools
 
 # A fsscript is simply a shell script that is copied into the chroot of the stage4
 # after the kernel(s) and any external modules have been compiled and is 
